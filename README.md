@@ -1,20 +1,20 @@
 # AWS Athena Project: Querying Multiple CSV Datasets
 
-##TL;DR:
+## TL;DR:
 
 First hands-on AWS project using S3, Glue, and Athena to ingest, organize, and query multiple CSV datasets. Demonstrates cloud data management and analytics skills with serverless AWS services.
 
-##Cost
+## Cost
 
 All services used in this project are covered under the [AWS Free Tier](https://aws.amazon.com/free/).
 
 **PSA:** Make sure to delete everything to avoid incurring costs if you leave these services running.
 
-##Project Goal
+## Project Goal
 
 Demonstrate the ability to ingest, structure, and query multiple CSV datasets in AWS using serverless services, showcasing cloud data management and analytics skills.
 
-##Datasets
+## Datasets
 
 List the datasets you used:
 
@@ -26,11 +26,11 @@ List the datasets you used:
 
 **Products:**[Products CSV](https://drive.google.com/uc?id=1BE-dfkrb6oyLKDuqXAq2fDYMkDz2f9hM&export=download)
 
-##Architecture
+## Architecture
 
 <img width="1297" height="748" alt="image" src="https://github.com/user-attachments/assets/29b56848-6b93-4724-8f27-9e46e4d1c1d7" />
 
-##Setup
+## Setup
 
 **S3**
 
@@ -102,7 +102,7 @@ I set the results limit to 20 rows for quick verification of the data.
 <img width="1888" height="786" alt="image" src="https://github.com/user-attachments/assets/bd994ce0-ef88-4ab8-9fad-1e2a24dc7fee" />
 
 
-##Conclusion
+## Conclusion
 
 This project demonstrates how to ingest, catalog, and query multiple CSV datasets in AWS using serverless services like S3, Glue, and Athena. Through this workflow, I gained hands-on experience with:
 
@@ -127,6 +127,6 @@ With the datasets now queryable, it is possible to perform aggregations, joins, 
 
 *Partition large datasets in S3 to improve query performance
 
-##Acknowledgments
+## Acknowledgments
 
 Datasets sourced from [Datablist](https://www.datablist.com/learn/csv/download-sample-csv-files#products-dataset)
