@@ -106,26 +106,26 @@ I set the results limit to 20 rows for quick verification of the data.
 
 This project demonstrates how to ingest, catalog, and query multiple CSV datasets in AWS using serverless services like S3, Glue, and Athena. Through this workflow, I gained hands-on experience with:
 
-*Organizing and storing datasets in S3
+* Organizing and storing datasets in S3
 
-*Creating IAM roles and managing permissions for Glue
+* Creating IAM roles and managing permissions for Glue
 
-*Cataloging data with Glue and automatically inferring schemas
+* Cataloging data with Glue and automatically inferring schemas
 
-*Querying and exploring data in Athena
+* Querying and exploring data in Athena
 
 With the datasets now queryable, it is possible to perform aggregations, joins, and other analyses directly in the cloud.
 
 
 **Next Steps:**
 
-*Automate Glue crawlers with CloudWatch for scheduled updates
+* Automate Glue crawlers with CloudWatch for scheduled updates
 
-*Use Glue ETL jobs for data transformation and cleaning
+* Use Glue ETL jobs for data transformation and cleaning
 
-*Visualize Athena query results with QuickSight or Python notebooks
+* Visualize Athena query results with QuickSight or Python notebooks
 
-*Partition large datasets in S3 to improve query performance
+* Partition large datasets in S3 to improve query performance
 
 ## Acknowledgments
 
